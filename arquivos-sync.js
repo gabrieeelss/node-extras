@@ -9,7 +9,7 @@ try {
 }
 novoCliente = 'Zé Rico'
 try {
-    const dados = fs.appendFileSync('client es.txt', novoCliente)
+    const dados = fs.appendFileSync('clientes.txt', novoCliente)
     console.log("+1 Cliente!")
 } catch (erro) {
     console.error("erro::::::::: " + erro)
